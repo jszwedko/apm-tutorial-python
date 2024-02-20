@@ -1,4 +1,6 @@
 flask==2.2.2
 psycopg2-binary==2.9.6
 requests==2.28.1
+# flask doesn't specify Werkzeug dependency correctly
+Werkzeug==2.2.2
 ddtrace
